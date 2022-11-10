@@ -1,0 +1,63 @@
+body {
+  background-color: #eeeaec;
+  /* text-align: center; */
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+}
+
+.first {
+  border-bottom: solid 2px #000;
+}
+
+.answer {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+.answer h2 {
+  display: inline-block;
+  border-bottom: solid 1px #000;
+}
+
+.answer h2 + h2 {
+  background-color: #ef857d;
+  border-radius: 40px;
+}
+
+.explanation {
+  margin: 0 100px 0 100px;
+  padding: 40px 0;
+}
+
+.fn {
+  margin: 0 40px 0 40px;
+}
+
+.fn {
+  text-align: center;
+  font-size: 18px;
+}
+
+.fn p {
+  padding-top: 32px;
+  font-size: 18px;
+  color: #000;
+}
+
+.fn h4 {
+  color: #000;
+  padding-top: 40px;
+}
+
+.fn h3:hover {
+  opacity: 0.8;
+}
+
+.fn h4:hover {
+  opacity: 0.8;
+}
